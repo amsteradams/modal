@@ -1,0 +1,42 @@
+.btn-modal{
+    padding: 10px 20px;
+    display: block;
+    margin: auto 0;
+    font-size: 18px;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(49, 49, 49, 0.8);
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.modale{
+    width:30%;
+    height:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding:15px;
+    background-color: white;
+    position: relative;
+}
+.Modale-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.close-modale{
+    position:absolute;
+    top:0;
+    right:0;
+    color:white;
+    background-color: red;
+}
